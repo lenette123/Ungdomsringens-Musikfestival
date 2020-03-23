@@ -71,3 +71,8 @@ footer {
     background-color: #F27830;
     width: 8vw;
 }
+
+/*Variation i font color*/
+.sqr-mainArea_item-textcolor-white{
+    color: white;
+}
