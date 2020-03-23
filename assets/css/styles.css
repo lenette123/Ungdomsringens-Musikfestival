@@ -19,3 +19,24 @@ footer {
 .sponsor img{
     width: 10vw;
 }
+
+/*KUNSTNER SIDEN*/
+
+/*vores default item*/
+.sqr-mainArea{
+    height: 120px;
+    width: 120px;
+    margin: 20px;
+    float: left; /*ellers kommer det til at ligge under hinanden*/
+    background-color: #F2561D;
+}
+
+/*VARIATIONER i farve*/
+.sqr-mainArea_item-peach{
+    background-color: #F2A35E;
+}
+.sqr-mainArea_item-black{
+    background-color: #403B3D;
+}.sqr-mainArea_item-salmon{
+    background-color: #F27830;
+}
