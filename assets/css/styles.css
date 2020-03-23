@@ -65,8 +65,8 @@ footer {
 /*vores default item*/
 .sqr-mainArea_item{
     height: 120px;
-    width: 120px;
-    margin: 20px;
+    width: 200px;
+    margin: 5px;
     float: left; /*ellers kommer det til at ligge under hinanden*/
     background-color: #F2561D;
 }
@@ -79,7 +79,6 @@ footer {
     background-color: #403B3D;
 }.sqr-mainArea_item-salmon{
     background-color: #F27830;
-    width: 8vw;
 }
 
 /*Variation i font color*/
