@@ -4,9 +4,11 @@
 
 body {
     margin: 0;
-    background-color: rgb(207, 207, 207);
     /* background img skal sættes ind her, men virker pt ikke for mif*/
     font-family: 'Open Sans', sans-serif;
+    background-image: url('./img/beton.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h2 {
@@ -18,8 +20,12 @@ h2 {
 /* Footer */
 footer {
     background-color: #2A2A2A;
-    height: 450px;
+    height: 378px;
     color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 .soMe {
@@ -31,6 +37,7 @@ footer {
     margin: 3vh;
 }
 
+/* Her skal sættes ikoner ind i stedet for div kasser */
 .soMe div{
     margin: 2vh;
     height: 76px;
@@ -56,15 +63,20 @@ footer {
     padding: 0 2vw;
 }
 
+.sponsor {
+    margin-left: auto;
+    margin-right: auto;
+    width: 62%;
+}
+
 .sponsor img{
-    width: 10vw;
+    width: 8vw;
+    margin: 2vh 2vw;
 }
 
 /*KUNSTNER SIDEN*/
 .kunstner-page{
-    background-image: url('./img/beton.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+
     /* width: 100%; */    
 }
 .kunstner-page h1{
