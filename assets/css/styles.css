@@ -9,11 +9,41 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+h2 {
+    font-size: 30px;
+    margin: 0;
+}
+
+
+/* Footer */
 footer {
     background-color: #2A2A2A;
     height: 627px;
     color: white;
-    margin: 10px auto 10px auto;
+}
+
+.soMe {
+    text-align: center;
+    padding-top: 3vh;
+}
+
+.soMe div{
+    margin: 0 auto;
+    height: 76px;
+    width: 76px;
+    background-color: blue;
+}
+
+.footerlinks {
+
+}
+.footerlinks ul{
+    list-style: none;
+    text-align: center
+}
+
+.footerlinks li {
+    display: inline;
 }
 
 .sponsor img{
@@ -39,4 +69,5 @@ footer {
     background-color: #403B3D;
 }.sqr-mainArea_item-salmon{
     background-color: #F27830;
+    width: 8vw;
 }
