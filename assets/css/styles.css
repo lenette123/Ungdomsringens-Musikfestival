@@ -12,19 +12,102 @@ body {
 }
 
 h2 {
+    font-size: 80px;
+    margin: 0;
+    font-weight: bold;
+}
+
+h3 {
     font-size: 30px;
     margin: 0;
 }
 
 
+
+/* Header */
+header {
+    height: 8vh;
+    background-color: #2A2A2A;
+}
+
+.wrapper {
+    margin: 4vw 4vw;
+}
+
+/* Landing page*/
+.hero-image {
+    background-image: url("./img/crowd.jpg");
+    width: 100%;
+    height: 82vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-text {
+    padding: 18vh 10vw;
+}
+
+.grid-landing {
+    display: grid;
+    grid-gap: 4%;
+    background-color: #2196F3;
+    grid-template-areas: 
+        'nye-rammer lokation'
+        'nye-rammer events';
+    grid-template-columns: 48% 48%;
+}
+
+.text {
+    padding: 30px;
+    line-height: 20px;
+}
+
+.lp_nye-rammer {
+    height: 400px;
+    background-color: greenyellow;
+
+    grid-area: nye-rammer;
+}
+
+.lp_lokation {
+    background-color: greenyellow;
+    grid-area: lokation;
+}
+
+.lp_events {
+    background-color: greenyellow;
+    grid-area: events;
+}
+
+/* Knap */
+.knap-outer {
+    background-color: hotpink;
+    height: 50px;
+    width: 200px;
+}
+
+.knap-inner {
+    border: 5px solid #2A2A2A;
+    height: 55px;
+    width: 205px;
+    position: relative;
+    left: 5px;
+    bottom: 10px;
+}
+
+.knap-inner p {
+    text-align: center;
+}
+
+
+
+
 /* Footer */
 footer {
     background-color: #2A2A2A;
-    height: 378px;
     color: white;
-    position: fixed;
-    left: 0;
-    bottom: 0;
+    height: 378px;
     width: 100%;
 }
 
@@ -74,11 +157,9 @@ footer {
     margin: 2vh 2vw;
 }
 
+/* -----------------------------------------------------*/
 /*KUNSTNER SIDEN*/
-.kunstner-page{
-
-    /* width: 100%; */    
-}
+  
 .kunstner-page h1{
     font-weight: bold;
     color: white;
@@ -98,11 +179,10 @@ footer {
     width: 200px;
     margin: 0;
     padding: 0;
-
 }
 
 
-.wrapper{
+.kunstner_wrapper{
     margin: 8vh 20vw;
 }
 
@@ -123,7 +203,8 @@ footer {
 }
 .sqr-mainArea_item-black{
     background-color: #403B3D;
-}.sqr-mainArea_item-salmon{
+}
+.sqr-mainArea_item-salmon{
     background-color: #F27830;
 }
 
