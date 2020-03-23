@@ -22,17 +22,40 @@ h3 {
     margin: 0;
 }
 
+/* Farver */
+.black {
+    background-color: #2A2A2A;
+    color: white;
+}
+
+.grey {
+    background-color: #403b3d;
+    color: white;
+}
+
+.lightOrange {
+    background-color: #F2A35E;
+}
+
+.orange {
+    background-color: #F27830;
+}
+.darkOrange {
+    background-color: #F2561D;
+}
 
 
 /* Header */
 header {
-    height: 8vh;
+    height: 10vh;
     background-color: #2A2A2A;
 }
 
 .wrapper {
     margin: 4vw 4vw;
 }
+
+
 
 /* Landing page*/
 .hero-image {
@@ -48,49 +71,56 @@ header {
     padding: 18vh 10vw;
 }
 
+.whiteText {
+    color: white;
+}
+
+.orangeText {
+    color: #F27830;
+}
+
 .grid-landing {
     display: grid;
     grid-gap: 4%;
-    background-color: #2196F3;
     grid-template-areas: 
         'nye-rammer lokation'
-        'nye-rammer events';
+        'nye-rammer events'
+        'nye-rammer lp_knap';
     grid-template-columns: 48% 48%;
 }
 
 .text {
     padding: 30px;
-    line-height: 20px;
+    line-height: 25px;
 }
 
 .lp_nye-rammer {
-    height: 400px;
-    background-color: greenyellow;
-
     grid-area: nye-rammer;
 }
 
 .lp_lokation {
-    background-color: greenyellow;
     grid-area: lokation;
 }
 
 .lp_events {
-    background-color: greenyellow;
     grid-area: events;
+}
+
+.lp_knap {
+    grid-area: lp_knap;
+    margin: 50px auto;
 }
 
 /* Knap */
 .knap-outer {
-    background-color: hotpink;
-    height: 50px;
-    width: 200px;
+    height: 60px;
+    width: 210px;
 }
 
 .knap-inner {
     border: 5px solid #2A2A2A;
-    height: 55px;
-    width: 205px;
+    height: 65px;
+    width: 215px;
     position: relative;
     left: 5px;
     bottom: 10px;
@@ -98,6 +128,9 @@ header {
 
 .knap-inner p {
     text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 13px 0;
 }
 
 
@@ -133,6 +166,8 @@ footer {
 .footerlinks {
     border-top: 2px solid gray;
     border-bottom: 2px solid gray;
+    width: 58%;
+    margin: auto;
 
 }
 .footerlinks ul{
@@ -145,6 +180,10 @@ footer {
     display: inline;
     padding: 0 2vw;
 }
+
+a:visited {
+    color: #E3E3E3;
+  }
 
 .sponsor {
     margin-left: auto;
