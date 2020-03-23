@@ -18,7 +18,7 @@ h2 {
 /* Footer */
 footer {
     background-color: #2A2A2A;
-    height: 627px;
+    height: 450px;
     color: white;
 }
 
@@ -32,7 +32,7 @@ footer {
 }
 
 .soMe div{
-    margin: 0 auto;
+    margin: 2vh;
     height: 76px;
     width: 76px;
     background-color: blue;
@@ -41,15 +41,19 @@ footer {
 }
 
 .footerlinks {
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
 
 }
 .footerlinks ul{
     list-style: none;
-    text-align: center
+    text-align: center;
+    padding: 0;
 }
 
 .footerlinks li {
     display: inline;
+    padding: 0 2vw;
 }
 
 .sponsor img{
