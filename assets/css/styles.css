@@ -27,11 +27,17 @@ footer {
     padding-top: 3vh;
 }
 
+.soMe article {
+    margin: 3vh;
+}
+
 .soMe div{
     margin: 0 auto;
     height: 76px;
     width: 76px;
     background-color: blue;
+    border-radius: 50%;
+    display: inline-block;
 }
 
 .footerlinks {
