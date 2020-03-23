@@ -65,11 +65,33 @@ footer {
     background-image: url('./img/beton.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    /* width: 100%; */
-    
+    /* width: 100%; */    
 }
+.kunstner-page h1{
+    font-weight: bold;
+    color: white;
+    background-color: #403B3D;
+    text-align: center;
+    font-size: 5vw;
+    margin: 5vh 10vw;
+}
+.grey_box{
+    height: 100px;
+    width: 250px;
+    /* background-color: #403B3D; */
+}
+.border-orange{
+    border: 5px solid orange;
+    height: 120px;
+    width: 200px;
+    margin: 0;
+    padding: 0;
+
+}
+
+
 .wrapper{
-    margin: 5vh 20vw;
+    margin: 8vh 20vw;
 }
 
 /*vores default item*/
