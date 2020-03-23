@@ -64,11 +64,12 @@ footer {
 .kunstner-page{
     background-image: url('./img/beton.jpg');
     background-repeat: no-repeat;
-    width: 100%;
+    background-size: cover;
+    /* width: 100%; */
     
 }
 .wrapper{
-    margin: 0 20px;
+    margin: 5vh 20vw;
 }
 
 /*vores default item*/
