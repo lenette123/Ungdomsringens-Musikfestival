@@ -290,12 +290,27 @@ a:visited {
 
 .fredag {
     margin: auto auto 6vw auto;
-    height: 600px;
+    padding: 2vw;
     width: 1000px;
+}
+
+table {
+    margin-top: 2vw;
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+td, th {
+    border: 1px solid #dddddd;
+    height: 50px;
+}
+
+th {
+    width: 100px;
 }
 
 .lørdag {
     margin: auto;
-    height: 600px;
+    padding: 2vw;
     width: 1000px;
 }
