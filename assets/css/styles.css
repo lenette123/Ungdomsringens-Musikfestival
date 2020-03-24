@@ -51,16 +51,10 @@ h3 {
 
 /*burger menu*/
   
-.topnav {
-    overflow: hidden;
-    position: relative;
-}
-  
-.topnav #myLinks {
+.topnav #sider {
     display: none; /*Sættes til none*/
-
 }
-  
+
 .topnav a {
     color: white;
     padding: 18px 25px;
@@ -68,13 +62,14 @@ h3 {
     font-size: 30px;
     display: block;
     text-align: center;
-    margin-right: 30px;
+
 }
   
 .topnav a.icon {
     background: #F2561D;
     display: block;
     float: right;
+    margin-right: 30px;
 }
 
 .topnav a:hover {
