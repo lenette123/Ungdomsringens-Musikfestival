@@ -69,7 +69,7 @@ h3 {
 }
   
 .topnav a.icon {
-    background: #F2561D;
+    background: rgba(242, 86, 29, 0.945);
     display: block;
     float: right;
     margin-right: 30px;
@@ -258,6 +258,11 @@ a:active{
 .lp_knap {
     grid-area: lp_knap;
     margin: 50px auto;
+}
+
+iframe {
+    width: 670px;
+    height: 376px;
 }
 
 /* -----------------------------------------------------*/
