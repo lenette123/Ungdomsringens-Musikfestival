@@ -56,61 +56,6 @@ header {
 }
 
 
-
-/* Landing page*/
-.hero-image {
-    background-image: url("./img/crowd.jpg");
-    width: 100%;
-    height: 82vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.hero-text {
-    padding: 18vh 10vw;
-}
-
-.whiteText {
-    color: white;
-}
-
-.orangeText {
-    color: #F27830;
-}
-
-.grid-landing {
-    display: grid;
-    grid-gap: 4%;
-    grid-template-areas: 
-        'nye-rammer lokation'
-        'nye-rammer events'
-        'nye-rammer lp_knap';
-    grid-template-columns: 48% 48%;
-}
-
-.text {
-    padding: 30px;
-    line-height: 25px;
-}
-
-.lp_nye-rammer {
-    grid-area: nye-rammer;
-}
-
-.lp_lokation {
-    grid-area: lokation;
-}
-
-.lp_events {
-    grid-area: events;
-}
-
-.lp_knap {
-    grid-area: lp_knap;
-    margin: 50px auto;
-}
-
 /* Knap */
 .knap-outer {
     height: 60px;
@@ -222,6 +167,60 @@ a:visited {
     margin: 2vh 2vw;
 }
 
+/* Landing page*/
+.hero-image {
+    background-image: url("./img/crowd.jpg");
+    width: 100%;
+    height: 82vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-text {
+    padding: 18vh 10vw;
+}
+
+.whiteText {
+    color: white;
+}
+
+.orangeText {
+    color: #F27830;
+}
+
+.grid-landing {
+    display: grid;
+    grid-gap: 4%;
+    grid-template-areas: 
+        'nye-rammer lokation'
+        'nye-rammer events'
+        'nye-rammer lp_knap';
+    grid-template-columns: 48% 48%;
+}
+
+.text {
+    padding: 30px;
+    line-height: 25px;
+}
+
+.lp_nye-rammer {
+    grid-area: nye-rammer;
+}
+
+.lp_lokation {
+    grid-area: lokation;
+}
+
+.lp_events {
+    grid-area: events;
+}
+
+.lp_knap {
+    grid-area: lp_knap;
+    margin: 50px auto;
+}
+
 /* -----------------------------------------------------*/
 /*KUNSTNER SIDEN*/
 
@@ -259,4 +258,13 @@ a:visited {
 /*Variation i font color*/
 .sqr-mainArea_item-textcolor-white{
     color: white;
+}
+
+/* Program */
+.days {
+    display: flex;
+}
+
+.days .knap-outer {
+    margin: auto;
 }
