@@ -84,6 +84,7 @@ header {
     height: 80px;
     width: 300px;
     margin: 40px auto;
+    background-color: #403B3D;
 }
 
 .heading-inner {
@@ -98,6 +99,7 @@ header {
 .heading-inner h1 {
     text-align: center;
     font-weight: bold;
+    color: white;
     font-size: 2.5em;
     margin: 15px 30px 0 15px
 }
@@ -221,29 +223,6 @@ a:visited {
 
 /* -----------------------------------------------------*/
 /*KUNSTNER SIDEN*/
-
-/* Skal eventuelt slettes*/
-.kunstner-page h1{
-    font-weight: bold;
-    color: white;
-    background-color: #403B3D;
-    text-align: center;
-    font-size: 5vw;
-    margin: 5vh 10vw;
-}
-.grey_box{
-    height: 100px;
-    width: 250px;
-    /* background-color: #403B3D; */
-}
-.border-orange{
-    border: 5px solid orange;
-    height: 120px;
-    width: 200px;
-    margin: 0;
-    padding: 0;
-}
-/* herned til*/
 
 .kunstner_wrapper{
     margin: 8vh 20vw;
