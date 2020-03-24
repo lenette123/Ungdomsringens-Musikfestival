@@ -154,10 +154,6 @@ footer {
     padding: 0 2vw;
 }
 
-a:visited {
-    color: #E3E3E3;
-  }
-
 .sponsor {
     margin-left: auto;
     margin-right: auto;
@@ -167,6 +163,17 @@ a:visited {
 .sponsor img{
     width: 8vw;
     margin: 2vh 2vw;
+}
+/*LINK STYLING*/
+
+a:link{
+    color:  #E3E3E3;
+}
+a:visited {
+    color: #E3E3E3;
+  }
+a:active{
+    color: #E3E3E3;
 }
 
 /* Landing page*/
@@ -233,9 +240,6 @@ a:visited {
 .forms{
     margin: auto;
     width: 500px;
-}
-.filter{
-
 }
 
 .fa-search{
@@ -350,3 +354,26 @@ th {
     grid-area: img;
     height: 360px;
 }
+
+/*Information*/
+.grid-info {
+    display: grid;
+    grid-gap: 4%;
+    grid-template-areas: 
+    'hvornår hvornår'
+    'priser forplejning'
+    'priser ungeindslag'
+    'vagter overnatning'
+    'parkering overnatning'
+    'tilmeld tilmeld'    ;
+    grid-template-columns: 48% 48%;
+}
+
+.hvornår {grid-area: hvornår;}
+.priser { grid-area: priser;}
+.forplejning { grid-area: forplejning;}
+.ungeindslag { grid-area: ungeindslag;}
+.vagter { grid-area: vagter;}
+.parkering { grid-area: parkering;}
+.overnatning { grid-area: overnatning;}
+.tilmeld {grid-area: tilmeld}
