@@ -7,7 +7,7 @@ body {
     /* background img skal sættes ind her, men virker pt ikke for mif*/
     font-family: 'Open Sans', sans-serif;
     background-image: url('./img/beton.jpg');
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
 }
 
@@ -258,8 +258,37 @@ a:visited {
 /* Program */
 .days {
     display: flex;
+    margin: 4vw auto;
+    width: 60%;
 }
 
 .days .knap-outer {
     margin: auto;
+}
+
+.bigButton-outer {
+    height: 150px;
+    width: 280px;
+}
+
+.bigButton-inner {
+    height: 150px;
+    width: 285px;
+}
+
+.bigButton-inner p {
+    font-size: 35px;
+    margin: 32px 0;
+}
+
+.fredag {
+    margin: auto auto 6vw auto;
+    height: 600px;
+    width: 1000px;
+}
+
+.lørdag {
+    margin: auto;
+    height: 600px;
+    width: 1000px;
 }
