@@ -154,10 +154,6 @@ footer {
     padding: 0 2vw;
 }
 
-a:visited {
-    color: #E3E3E3;
-  }
-
 .sponsor {
     margin-left: auto;
     margin-right: auto;
@@ -167,6 +163,17 @@ a:visited {
 .sponsor img{
     width: 8vw;
     margin: 2vh 2vw;
+}
+/*LINK STYLING*/
+
+a:link{
+    color:  #E3E3E3;
+}
+a:visited {
+    color: #E3E3E3;
+  }
+a:active{
+    color: #E3E3E3;
 }
 
 /* Landing page*/
@@ -325,6 +332,31 @@ th {
 
 /* Scener */
 .grid-scener {
+    display: grid;
+    grid-gap: 4%;
+    grid-template-areas: 
+    'info info'
+    'royal img'
+    'joule img'
+    'baghuset watt'
+    'skraen kulkælder'    ;
+    grid-template-columns: 48% 48%;
+}
+
+.sceneinfo {grid-area: info;}
+.royal { grid-area: royal;}
+.joule { grid-area: joule;}
+.baghuset { grid-area: baghuset;}
+.skraen { grid-area: skraen;}
+.watt { grid-area: watt;}
+.kulkælder { grid-area: kulkælder;}
+.img-scener {
+    grid-area: img;
+    height: 360px;
+}
+
+/*Information*/
+.grid-info {
     display: grid;
     grid-gap: 4%;
     grid-template-areas: 
