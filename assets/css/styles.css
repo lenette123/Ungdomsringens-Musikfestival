@@ -229,6 +229,11 @@ a:visited {
     margin: 8vh 20vw;
 }
 
+.forms{
+    margin: auto;
+    width: 500px;
+}
+
 /*vores default item*/
 .sqr-mainArea_item{
     height: 120px;
