@@ -45,14 +45,46 @@ h3 {
 }
 
 
-/* Header */
-header {
-    height: 10vh;
-    background-color: #2A2A2A;
-}
-
 .wrapper {
     margin: 4vw 4vw;
+}
+
+/*burger menu*/
+  
+.topnav {
+    overflow: hidden;
+    position: relative;
+}
+  
+.topnav #myLinks {
+    display: none; /*Sættes til none*/
+
+}
+  
+.topnav a {
+    color: white;
+    padding: 18px 25px;
+    text-decoration: none;
+    font-size: 30px;
+    display: block;
+    text-align: center;
+    margin-right: 30px;
+}
+  
+.topnav a.icon {
+    background: #F2561D;
+    display: block;
+    float: right;
+}
+
+.topnav a:hover {
+    color: black;
+}
+
+.navigation {
+    height: 10vh;
+    width: 100%;
+    background-color: #403b3d;
 }
 
 
