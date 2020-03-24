@@ -133,6 +133,30 @@ header {
     margin: 13px 0;
 }
 
+/* Overskrifter */
+
+.heading-outer {
+    height: 80px;
+    width: 300px;
+    margin: 40px auto;
+}
+
+.heading-inner {
+    border: 5px solid #F27830;
+    height: 80px;
+    width: 300px;
+    position: relative;
+    left: 10px;
+    bottom: 10px;
+}
+
+.heading-inner h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.5em;
+    margin: 15px 30px 0 15px
+}
+
 
 
 
@@ -198,7 +222,8 @@ a:visited {
 
 /* -----------------------------------------------------*/
 /*KUNSTNER SIDEN*/
-  
+
+/* Skal eventuelt slettes*/
 .kunstner-page h1{
     font-weight: bold;
     color: white;
@@ -219,7 +244,7 @@ a:visited {
     margin: 0;
     padding: 0;
 }
-
+/* herned til*/
 
 .kunstner_wrapper{
     margin: 8vh 20vw;
