@@ -198,28 +198,29 @@ a:visited {
 
 /* -----------------------------------------------------*/
 /*KUNSTNER SIDEN*/
-  
-.kunstner-page h1{
-    font-weight: bold;
-    color: white;
+
+.header-outer {
+    height: 60px;
+    width: 210px;
     background-color: #403B3D;
-    text-align: center;
-    font-size: 5vw;
-    margin: 5vh 10vw;
-}
-.grey_box{
-    height: 100px;
-    width: 250px;
-    /* background-color: #403B3D; */
-}
-.border-orange{
-    border: 5px solid orange;
-    height: 120px;
-    width: 200px;
-    margin: 0;
-    padding: 0;
 }
 
+.header-inner {
+    border: 5px solid #F27830;
+    height: 65px;
+    width: 215px;
+    position: relative;
+    left: 5px;
+    bottom: 10px;
+}
+
+.header-inner h1 {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 13px 0;
+}
 
 .kunstner_wrapper{
     margin: 8vh 20vw;
