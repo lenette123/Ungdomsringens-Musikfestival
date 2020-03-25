@@ -36,6 +36,11 @@ h3 {
     color: white;
 }
 
+.white{
+    background-color: white;
+    color: black;
+}
+
 .lightOrange {
     background-color: #F2A35E;
 }
@@ -99,6 +104,7 @@ h3 {
     position: relative;
     left: 5px;
     bottom: 10px;
+    cursor: pointer;
 }
 
 .knap-inner p {
@@ -397,18 +403,24 @@ th {
     grid-template-areas: 
     'hvornår hvornår'
     'priser forplejning'
-    'priser ungeindslag'
-    'vagter overnatning'
+    'ungeindslag vagter'
     'parkering overnatning'
+    /* '. overnatning' */
     'tilmeld tilmeld'    ;
     grid-template-columns: 48% 48%;
 }
 
 .hvornår {grid-area: hvornår;}
-.priser { grid-area: priser;}
-.forplejning { grid-area: forplejning;}
-.ungeindslag { grid-area: ungeindslag;}
-.vagter { grid-area: vagter;}
-.parkering { grid-area: parkering;}
-.overnatning { grid-area: overnatning;}
-.tilmeld {grid-area: tilmeld}
+.priser { grid-area: priser;
+    height: 505px;}
+.forplejning { grid-area: forplejning;
+    height: 326px;}
+.ungeindslag { grid-area: ungeindslag;
+    height: 505px;}
+.vagter { grid-area: vagter;
+    height: 326px;}
+.parkering { grid-area: parkering;
+    height: 457px;}
+.overnatning { grid-area: overnatning;
+    height: 814px;}
+.tilmeld {grid-area: tilmeld;}
