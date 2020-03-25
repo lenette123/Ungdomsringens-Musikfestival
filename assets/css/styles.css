@@ -403,7 +403,9 @@ th {
     grid-template-areas: 
     'hvornår hvornår'
     'priser forplejning'
+    'priser vagter'
     'ungeindslag vagter'
+    'ungeindslag overnatning'
     'parkering overnatning'
     /* '. overnatning' */
     'tilmeld tilmeld'    ;
