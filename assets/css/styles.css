@@ -413,16 +413,10 @@ th {
 }
 
 .hvornår {grid-area: hvornår;}
-.priser { grid-area: priser;
-    height: 505px;}
-.forplejning { grid-area: forplejning;
-    height: 326px;}
-.ungeindslag { grid-area: ungeindslag;
-    height: 505px;}
-.vagter { grid-area: vagter;
-    height: 326px;}
-.parkering { grid-area: parkering;
-    height: 457px;}
-.overnatning { grid-area: overnatning;
-    height: 814px;}
+.priser { grid-area: priser;}
+.forplejning { grid-area: forplejning;}
+.ungeindslag { grid-area: ungeindslag;}
+.vagter { grid-area: vagter;}
+.parkering { grid-area: parkering;}
+.overnatning { grid-area: overnatning;}
 .tilmeld {grid-area: tilmeld;}
