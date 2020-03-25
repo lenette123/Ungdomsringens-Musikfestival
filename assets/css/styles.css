@@ -407,7 +407,6 @@ th {
     'ungeindslag vagter'
     'ungeindslag overnatning'
     'parkering overnatning'
-    /* '. overnatning' */
     'tilmeld tilmeld'    ;
     grid-template-columns: 48% 48%;
 }
@@ -419,4 +418,29 @@ th {
 .vagter { grid-area: vagter;}
 .parkering { grid-area: parkering;}
 .overnatning { grid-area: overnatning;}
+.tilmeld {grid-area: tilmeld;}
+
+/*For Bands*/
+
+
+.grid-bands {
+    display: grid;
+    grid-gap: 4%;
+    grid-template-areas: 
+    'info info'
+    'mødetid ansvarlig'
+    'mødetid garderobe'
+    'alkohol garderobe'
+    'alkohol parkering_bands'
+    ' . parkering_bands'
+    'tilmeld tilmeld'    ;
+    grid-template-columns: 48% 48%;
+}
+
+.info {grid-area: info;}
+.mødetid { grid-area: mødetid;}
+.ansvarlig { grid-area: ansvarlig;}
+.alkohol { grid-area: alkohol;}
+.garderobe { grid-area: garderobe;}
+.parkering_bands { grid-area: parkering_bands;}
 .tilmeld {grid-area: tilmeld;}
