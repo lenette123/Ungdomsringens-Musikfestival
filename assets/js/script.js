@@ -7,3 +7,6 @@ function myFunction() {
       burger.style.display = "block";
     }
 }
+
+// Modal til kunstner
+

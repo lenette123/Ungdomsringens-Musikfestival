@@ -294,8 +294,8 @@ iframe {
 /* -----------------------------------------------------*/
 /*KUNSTNER SIDEN*/
 
-.kunstner_wrapper{
-    margin: 8vh 20vw;
+.kunstner-wrapper{
+    margin: 4vw 11vw;
 }
 
 .forms{
@@ -313,11 +313,12 @@ iframe {
 
 /*vores default item*/
 .sqr-mainArea_item{
-    height: 120px;
-    width: 200px;
+    height: 220px;
+    width: 270px;
     text-align: center;
-    padding: 15px 5px;
-    margin: 5px;
+    padding: 0 5px;
+    padding-top: 75px;
+    margin: 10px;
     float: left; /*ellers kommer det til at ligge under hinanden*/
     background-color: #F2561D;
 }
