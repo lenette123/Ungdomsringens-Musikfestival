@@ -183,13 +183,25 @@ footer {
 
 
 /* Her skal sættes ikoner ind i stedet for div kasser */
-.soMe div{
+/* .soMe div{
     margin: 2vh;
     height: 76px;
     width: 76px;
     background-color: blue;
     border-radius: 50%;
     display: inline-block;
+} */
+
+.fa-facebook{
+    color: #3B5998;
+    font-size: 2em;
+    margin-right: 8px;
+    /* background-color: white; */
+
+}
+
+.fa-instagram{
+    font-size: 2em;
 }
 
 .footerlinks {
