@@ -299,8 +299,17 @@ iframe {
 }
 
 .forms{
+    
     margin: auto;
     width: 500px;
+    
+}
+.search{
+    /* float: left; */
+}
+
+.filter{
+    float: right; 
 }
 
 .fa-search{
@@ -308,7 +317,7 @@ iframe {
 }
 .fa-filter{
     cursor: pointer;
-    font-size: 2.5em;
+    /* font-size: 2em; */
 }
 
 /*vores default item*/
