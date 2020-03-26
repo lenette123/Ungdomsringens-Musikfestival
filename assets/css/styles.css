@@ -76,8 +76,10 @@ h3 {
 .topnav a.icon {
     background: rgba(242, 86, 29, 0.945);
     display: block;
-    float: right;
     margin-right: 30px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
 }
 
 .topnav a:hover {
@@ -88,8 +90,26 @@ h3 {
     height: 10vh;
     width: 100%;
     background-color: #403b3d;
+    display: flex;
 }
 
+.logo {
+    height: 10vh;
+    margin-left: 30px;
+    text-align: center;
+}
+
+a.navimg {
+    padding: 0;
+}
+
+.flag {
+    position: absolute;
+    top: 0;
+    right: 105px;
+    height: 20px;
+    margin: 25px;
+}
 
 /* Knap */
 .knap-outer {
