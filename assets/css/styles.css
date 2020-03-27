@@ -189,6 +189,7 @@ footer {
 
 
 
+
 /* Her skal sættes ikoner ind i stedet for div kasser */
 /* .soMe div{
     margin: 2vh;
@@ -428,7 +429,7 @@ a {
 }
 
 a:hover p{
-    color: #E3E3E3;
+    text-decoration: underline;
 }
 
 /* Scener */
