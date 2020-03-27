@@ -554,10 +554,11 @@ a:hover p{
     display: grid;
     grid-gap: 4%;
     grid-template-areas: 
-    'info ansvarlig'
-    'mødetid garderobe'
-    'parkering_bands alkohol'
-    'kontakt1 kontakt2'
+    'info info'
+    'mødetid ansvarlig'
+    'parkering_bands garderobe'
+    'alkohol kontakt1'
+    '. kontakt2'
     'tilmeld tilmeld'    ;
     grid-template-columns: 48% 48%;
 }
@@ -575,5 +576,5 @@ a:hover p{
 
 
 #footer-bands {
-    margin-top: 270px;
+    margin-top: 340px;
 }
