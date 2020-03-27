@@ -8,7 +8,7 @@ function myFunction() {
     }
 }
 
-// Modal til kunstner
+/* Modal til kunstner */
 
 // Get the modal
 var bandModalId = document.getElementById("bandModalId");

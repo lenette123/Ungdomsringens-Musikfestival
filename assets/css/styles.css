@@ -358,6 +358,7 @@ iframe {
     margin: 10px;
     float: left; /*ellers kommer det til at ligge under hinanden*/
     background-color: #F2561D;
+    cursor: pointer;
 }
 
 /*VARIATIONER i farve*/
@@ -498,8 +499,9 @@ a:hover p{
     'info info'
     'royal img'
     'joule img'
-    'baghuset watt'
-    'skraen kulkælder'    ;
+    'baghuset img'
+    'watt kulkælder'
+    'skraen .'    ;
     grid-template-columns: 48% 48%;
 }
 
@@ -516,7 +518,7 @@ a:hover p{
 }
 
 #footer-scene {
-    margin-top: 200px;
+    margin-top: 268px;
 }
 
 /*Information*/
@@ -526,10 +528,9 @@ a:hover p{
     grid-template-areas: 
     'hvornår hvornår'
     'priser forplejning'
-    'priser vagter'
     'ungeindslag vagter'
-    'ungeindslag overnatning'
     'parkering overnatning'
+    'kontakt1 kontakt2'
     'tilmeld tilmeld'    ;
     grid-template-columns: 48% 48%;
 }
@@ -541,6 +542,8 @@ a:hover p{
 .vagter { grid-area: vagter;}
 .parkering { grid-area: parkering;}
 .overnatning { grid-area: overnatning;}
+.kontakt1 { grid-area: kontakt1;}
+.kontakt2 { grid-area: kontakt2;}
 .tilmeld {grid-area: tilmeld;}
 
 #footer-info {
@@ -553,10 +556,11 @@ a:hover p{
     display: grid;
     grid-gap: 4%;
     grid-template-areas: 
-    'info ansvarlig'
-    'mødetid garderobe'
-    'parkering_bands alkohol'
-    'kontakt1 kontakt2'
+    'info info'
+    'mødetid ansvarlig'
+    'parkering_bands garderobe'
+    'alkohol kontakt1'
+    '. kontakt2'
     'tilmeld tilmeld'    ;
     grid-template-columns: 48% 48%;
 }
@@ -574,5 +578,5 @@ a:hover p{
 
 
 #footer-bands {
-    margin-top: 270px;
+    margin-top: 340px;
 }
