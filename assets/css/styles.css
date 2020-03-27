@@ -134,6 +134,10 @@ a.navimg {
     margin: 13px 0;
 }
 
+.knap-inner p:hover {
+    text-decoration: underline;
+}
+
 /* Overskrifter */
 
 .heading-outer {
@@ -506,3 +510,7 @@ a:hover p{
 .garderobe { grid-area: garderobe;}
 .parkering_bands { grid-area: parkering_bands;}
 .tilmeld {grid-area: tilmeld;}
+
+#footer-bandsOgInfo {
+    margin-top: 330px;
+}
