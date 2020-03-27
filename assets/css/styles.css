@@ -387,6 +387,7 @@ iframe {
 .bigButton-inner p {
     font-size: 35px;
     margin: 32px 0;
+    color: black;
 }
 
 .fredag {
@@ -414,6 +415,10 @@ th {
     margin: auto;
     padding: 2vw;
 
+}
+
+a {
+    text-decoration: none;
 }
 
 /* Scener */
