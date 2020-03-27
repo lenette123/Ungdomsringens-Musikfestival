@@ -485,6 +485,10 @@ a:hover p{
     text-decoration: underline;
 }
 
+#footer-program {
+    margin-top: 48px;
+}
+
 /* Scener */
 .grid-scener {
     display: grid;
@@ -508,6 +512,10 @@ a:hover p{
 .img-scener {
     grid-area: img;
     height: 360px;
+}
+
+#footer-scene {
+    margin-top: 200px;
 }
 
 /*Information*/
@@ -534,10 +542,9 @@ a:hover p{
 .overnatning { grid-area: overnatning;}
 .tilmeld {grid-area: tilmeld;}
 
-#footer-scene {
-    margin-top: 200px;
+#footer-info {
+    margin-top: 330px;
 }
-
 /*For Bands*/
 
 
@@ -565,6 +572,6 @@ a:hover p{
 
 
 
-#footer-bandsOgInfo {
+#footer-bands {
     margin-top: 270px;
 }
