@@ -532,7 +532,9 @@ a:hover p{
 .overnatning { grid-area: overnatning;}
 .tilmeld {grid-area: tilmeld;}
 
-
+#footer-info {
+    margin-top: 330px;
+}
 /*For Bands*/
 
 
