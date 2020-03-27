@@ -25,6 +25,10 @@ h3 {
     margin: 0;
 }
 
+h4 {
+    font-size: 10px;
+}
+
 /* Farver */
 .black {
     background-color: #2A2A2A;
@@ -512,6 +516,8 @@ a:hover p{
 .parkering_bands { grid-area: parkering_bands;}
 .kontakt { grid-area: kontakt;}
 .tilmeld {grid-area: tilmeld;}
+
+
 
 #footer-bandsOgInfo {
     margin-top: 330px;
