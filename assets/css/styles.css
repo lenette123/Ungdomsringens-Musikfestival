@@ -187,7 +187,10 @@ footer {
     margin: 3vh;
 }
 
-
+footer a:hover{
+    text-decoration: underline;
+    color: #E3E3E3;
+}
 
 
 /* Her skal sættes ikoner ind i stedet for div kasser */
