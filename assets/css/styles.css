@@ -169,6 +169,9 @@ footer {
     color: white;
     height: 378px;
     width: 100%;
+    padding-top: 50px;
+    margin-top: 48px;
+    margin-bottom: 0px;
 }
 
 .soMe {
@@ -242,6 +245,7 @@ a:visited {
 a:active{
     color: #E3E3E3;
 }
+
 
 /* Landing page*/
 .hero-image {
@@ -419,6 +423,10 @@ a {
     text-decoration: none;
 }
 
+a:hover p{
+    color: #E3E3E3;
+}
+
 /* Scener */
 .grid-scener {
     display: grid;
@@ -467,6 +475,10 @@ a {
 .parkering { grid-area: parkering;}
 .overnatning { grid-area: overnatning;}
 .tilmeld {grid-area: tilmeld;}
+
+#footer-scene {
+    margin-top: 200px;
+}
 
 /*For Bands*/
 
