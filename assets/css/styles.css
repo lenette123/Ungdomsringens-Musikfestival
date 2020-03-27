@@ -537,9 +537,8 @@ a:hover p{
     grid-template-areas: 
     'info ansvarlig'
     'mødetid garderobe'
-    'mødetid alkohol'
     'parkering_bands alkohol'
-    'parkering_bands kontakt'
+    'kontakt1 kontakt2'
     'tilmeld tilmeld'    ;
     grid-template-columns: 48% 48%;
 }
@@ -550,11 +549,12 @@ a:hover p{
 .alkohol { grid-area: alkohol;}
 .garderobe { grid-area: garderobe;}
 .parkering_bands { grid-area: parkering_bands;}
-.kontakt { grid-area: kontakt;}
+.kontakt1 { grid-area: kontakt1;}
+.kontakt2 { grid-area: kontakt2;}
 .tilmeld {grid-area: tilmeld;}
 
 
 
 #footer-bandsOgInfo {
-    margin-top: 350px;
+    margin-top: 270px;
 }
