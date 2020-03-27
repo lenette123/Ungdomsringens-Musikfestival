@@ -358,6 +358,7 @@ iframe {
     margin: 10px;
     float: left; /*ellers kommer det til at ligge under hinanden*/
     background-color: #F2561D;
+    cursor: pointer;
 }
 
 /*VARIATIONER i farve*/
