@@ -513,7 +513,7 @@ a:hover p{
 .img-scener {
     grid-area: img;
     height: 360px;
-    padding: 
+    padding: 20px 0 0 200px;
 }
 
 #footer-scene {
