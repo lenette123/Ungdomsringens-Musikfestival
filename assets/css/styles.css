@@ -497,9 +497,9 @@ a:hover p{
     grid-template-areas: 
     'info info'
     'mødetid ansvarlig'
-    'alkohol garderobe'
-    'kontakt parkering_bands'
-    'kontakt parkering_bands'
+    'parkering_bands garderobe'
+    'parkering_bands alkohol'
+    'kontakt alkohol'
     'tilmeld tilmeld'    ;
     grid-template-columns: 48% 48%;
 }
