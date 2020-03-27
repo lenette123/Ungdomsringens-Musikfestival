@@ -397,7 +397,17 @@ iframe {
     padding: 20px;
     border: 1px solid #888;
     width: 80%;
+   
   }
+.band-img{
+    background-image: url('./img/bandfoto.jpg');
+    margin: 20px 20px;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+}
+
   /* The Close Button */
 .btn_close {
     color: #aaaaaa;
