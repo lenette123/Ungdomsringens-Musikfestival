@@ -134,6 +134,10 @@ a.navimg {
     margin: 13px 0;
 }
 
+.knap-inner p:hover {
+    text-decoration: underline;
+}
+
 /* Overskrifter */
 
 .heading-outer {
@@ -183,6 +187,10 @@ footer {
     margin: 3vh;
 }
 
+footer a:hover{
+    text-decoration: underline;
+    color: #E3E3E3;
+}
 
 
 /* Her skal sættes ikoner ind i stedet for div kasser */
@@ -424,7 +432,7 @@ a {
 }
 
 a:hover p{
-    color: #E3E3E3;
+    text-decoration: underline;
 }
 
 /* Scener */
@@ -504,3 +512,7 @@ a:hover p{
 .garderobe { grid-area: garderobe;}
 .parkering_bands { grid-area: parkering_bands;}
 .tilmeld {grid-area: tilmeld;}
+
+#footer-bandsOgInfo {
+    margin-top: 330px;
+}
