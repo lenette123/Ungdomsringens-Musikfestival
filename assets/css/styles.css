@@ -498,8 +498,9 @@ a:hover p{
     'info info'
     'royal img'
     'joule img'
-    'baghuset watt'
-    'skraen kulkælder'    ;
+    'baghuset img'
+    'watt kulkælder'
+    'skraen .'    ;
     grid-template-columns: 48% 48%;
 }
 
@@ -513,11 +514,10 @@ a:hover p{
 .img-scener {
     grid-area: img;
     height: 360px;
-    padding: 20px 0 0 200px;
 }
 
 #footer-scene {
-    margin-top: 200px;
+    margin-top: 268px;
 }
 
 /*Information*/
