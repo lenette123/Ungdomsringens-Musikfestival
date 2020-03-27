@@ -244,6 +244,7 @@ a:active{
     color: #E3E3E3;
 }
 
+
 /* Landing page*/
 .hero-image {
     background-image: url("./img/crowd.jpg");
@@ -419,6 +420,10 @@ th {
 
 a {
     text-decoration: none;
+}
+
+a:hover p{
+    text-decoration: underline;
 }
 
 /* Scener */
