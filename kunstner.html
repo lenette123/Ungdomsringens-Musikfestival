@@ -12,6 +12,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" data-auto-replace-svg="nest"></script>
+    <script src="assets/js/script.js" defer></script>
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
 </head>
 
@@ -25,7 +26,7 @@
     </div>
     <form class="forms search">
         <input type="text" placeholder="Søg...">
-        <i class= "fa fa-search"></i>
+        <i class="fa fa-search"></i>
     </form>
 
     <form class="forms filter">
@@ -34,11 +35,44 @@
     </form>
 
     <div class="kunstner-wrapper">
+        <!--MODAL TRY-->
         <main class="sqr-mainArea"></main>
-        <div class="sqr-mainArea_item">
+        <div id="bands" class="btn sqr-mainArea_item">
             <h3>Bandnavn</h3>
             <p>Dag og tid</p>
         </div>
+        <div id="bandModalId" class="bandModal">
+
+            <!-- Modal content -->
+            <div class="band-content">
+                <span class="close btn_close">&times;</span>
+                <p>Tid, dag og scene:</p>
+                <h2>Bandnavn</h2>
+                <p>Beskrivende tekst: <br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nostrum possimus laboriosam quas
+                    libero similique autem nemo culpa in inventore reprehenderit praesentium pariatur doloribus suscipit
+                    est reiciendis non, nam repellendus?</p> <br>
+                <p>Genre: <br>  
+                    Type: <br> 
+                    Klub/skole:  <br> 
+                    Aldersgruppe: <br>  
+                    Nationalitet:<br> 
+                     </p>
+                
+
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
         <div class="sqr-mainArea_item sqr-mainArea_item-peach">
             <h3>Bandnavn</h3>
             <p>Dag og tid</p>
