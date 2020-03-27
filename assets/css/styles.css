@@ -25,6 +25,7 @@ h3 {
     margin: 0;
 }
 
+
 /* Farver */
 .black {
     background-color: #2A2A2A;
@@ -80,6 +81,7 @@ h3 {
     position: absolute;
     top: 0px;
     right: 0px;
+    cursor: pointer;
 }
 
 .topnav a:hover {
@@ -109,6 +111,7 @@ a.navimg {
     right: 105px;
     height: 20px;
     margin: 25px;
+    cursor: pointer;
 }
 
 /* Knap */
@@ -132,6 +135,10 @@ a.navimg {
     font-size: 25px;
     font-weight: bold;
     margin: 13px 0;
+}
+
+.knap-inner p:hover {
+    text-decoration: underline;
 }
 
 /* Overskrifter */
@@ -169,6 +176,9 @@ footer {
     color: white;
     height: 378px;
     width: 100%;
+    padding-top: 50px;
+    margin-top: 135px;
+    margin-bottom: 0px;
 }
 
 .soMe {
@@ -180,6 +190,10 @@ footer {
     margin: 3vh;
 }
 
+footer a:hover{
+    text-decoration: underline;
+    color: #E3E3E3;
+}
 
 
 /* Her skal sættes ikoner ind i stedet for div kasser */
@@ -207,7 +221,6 @@ footer {
 .footerlinks {
     border-top: 2px solid gray;
     border-bottom: 2px solid gray;
-    width: 46%;
     margin: auto;
 
 }
@@ -272,8 +285,7 @@ a:active{
     grid-gap: 4%;
     grid-template-areas: 
         'nye-rammer lokation'
-        'nye-rammer events'
-        '. lp_knap';
+        'nye-rammer events';
     grid-template-columns: 48% 48%;
 }
 
@@ -460,7 +472,7 @@ a {
 }
 
 a:hover p{
-    color: #E3E3E3;
+    text-decoration: underline;
 }
 
 /* Scener */
@@ -512,6 +524,10 @@ a:hover p{
 .overnatning { grid-area: overnatning;}
 .tilmeld {grid-area: tilmeld;}
 
+#footer-scene {
+    margin-top: 200px;
+}
+
 /*For Bands*/
 
 
@@ -519,12 +535,11 @@ a:hover p{
     display: grid;
     grid-gap: 4%;
     grid-template-areas: 
-    'info info'
-    'mødetid ansvarlig'
+    'info ansvarlig'
     'mødetid garderobe'
-    'alkohol garderobe'
-    'alkohol parkering_bands'
-    ' . parkering_bands'
+    'mødetid alkohol'
+    'parkering_bands alkohol'
+    'parkering_bands kontakt'
     'tilmeld tilmeld'    ;
     grid-template-columns: 48% 48%;
 }
@@ -535,4 +550,11 @@ a:hover p{
 .alkohol { grid-area: alkohol;}
 .garderobe { grid-area: garderobe;}
 .parkering_bands { grid-area: parkering_bands;}
+.kontakt { grid-area: kontakt;}
 .tilmeld {grid-area: tilmeld;}
+
+
+
+#footer-bandsOgInfo {
+    margin-top: 350px;
+}
