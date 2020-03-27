@@ -498,11 +498,11 @@ a:hover p{
     display: grid;
     grid-gap: 4%;
     grid-template-areas: 
-    'info info'
-    'mødetid ansvarlig'
-    'parkering_bands garderobe'
+    'info ansvarlig'
+    'mødetid garderobe'
+    'mødetid alkohol'
     'parkering_bands alkohol'
-    'kontakt alkohol'
+    'parkering_bands kontakt'
     'tilmeld tilmeld'    ;
     grid-template-columns: 48% 48%;
 }
