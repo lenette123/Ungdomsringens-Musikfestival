@@ -35,3 +35,25 @@ window.onclick = function(event) {
     bandModalId.style.display = "none";
   }
 }
+
+/*NOTE TO SELF - ID's kan kun bruges ÉN gang pr. HTML fil,
+derfor er der så meget js til modaler, selvom det er det samme content*/
+
+//SECOND MODAL
+
+var bandModalId2 = document.getElementById("bandModalId2");
+var btn = document.getElementById("bands2");
+var span = document.getElementsByClassName("close")[1];
+btn.onclick = function() {
+  bandModalId2.style.display = "block";
+}
+span.onclick = function() {
+  bandModalId2.style.display = "none";
+}
+window.onclick = function(event) {
+  if (event.target == bandModalId2) {
+    bandModalId2.style.display = "none";
+  }
+}
+
+//FORTSÆTTES TEORETISK TIL DE SIDSTE 25 BANDS 

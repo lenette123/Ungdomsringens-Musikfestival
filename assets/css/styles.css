@@ -377,6 +377,10 @@ iframe {
     color: white;
 }
 
+/* .footer_kunstner{
+    margin-top: 48px;
+} */
+
 /*MODAL*/
 .bandModal {
     display: none; /* Hidden by default */
@@ -387,24 +391,31 @@ iframe {
     top: 0;
     width: 100%; /* Full width */
     height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
+    overflow: auto; /*Enable scroll if needed*/
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
     
-  }
+}
   .band-content {
     background-color: #fefefe;
     margin: auto;
     padding: 20px;
     border: 1px solid #888;
-    width: 80%;
+    width: 40%;
    
-  }
+}
+.band-desc{
+    padding: 0 2vw;
+
+}
+.band-desc h2{
+    font-size: 2.5vw;
+}
 .band-img{
     background-image: url('./img/bandfoto.jpg');
     margin: 20px 20px;
     margin-top: 40px;
-    height: 500px;
+    height: 250px;
     background-size: cover;
     background-repeat: no-repeat;
 }
