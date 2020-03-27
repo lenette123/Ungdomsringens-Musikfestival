@@ -402,11 +402,12 @@ iframe {
 .band-img{
     background-image: url('./img/bandfoto.jpg');
     margin: 20px 20px;
+    margin-top: 40px;
     height: 500px;
     background-size: cover;
     background-repeat: no-repeat;
 }
-}
+
 
   /* The Close Button */
 .btn_close {
