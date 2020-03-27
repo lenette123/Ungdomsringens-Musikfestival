@@ -80,6 +80,7 @@ h3 {
     position: absolute;
     top: 0px;
     right: 0px;
+    cursor: pointer;
 }
 
 .topnav a:hover {
@@ -109,6 +110,7 @@ a.navimg {
     right: 105px;
     height: 20px;
     margin: 25px;
+    cursor: pointer;
 }
 
 /* Knap */
