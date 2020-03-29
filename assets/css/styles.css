@@ -168,8 +168,6 @@ a.navimg {
 }
 
 
-
-
 /* Footer */
 footer {
     background-color: #2A2A2A;
@@ -194,17 +192,6 @@ footer a:hover{
     text-decoration: underline;
     color: #E3E3E3;
 }
-
-
-/* Her skal sættes ikoner ind i stedet for div kasser */
-/* .soMe div{
-    margin: 2vh;
-    height: 76px;
-    width: 76px;
-    background-color: blue;
-    border-radius: 50%;
-    display: inline-block;
-} */
 
 .fa-facebook{
     color: #3B5998;
@@ -314,6 +301,7 @@ a:active{
 .lp_events .knap-inner {
     border-color: white;
 }
+
 iframe {
     width: 670px;
     height: 376px;
@@ -590,4 +578,60 @@ a:hover p{
 
 #footer-bands {
     margin-top: 340px;
+}
+
+
+@media screen and (max-width: 600px){
+    /* fælles for alle sider*/
+    .wrapper {
+        margin: 4vw 0;
+    }
+
+    h2 {
+        font-size: 50px;
+    }
+
+    /* Navigation*/
+    .topnav a.icon {
+        margin: 0;
+    }
+
+    .flag {
+        right: 85px;
+    }
+
+    /* Footer*/
+    footer {
+        padding-top: 0; 
+        margin-top: 0;
+        height: fit-content;
+    }
+
+    .sponsor {
+        margin: 0;
+        width: fit-content;
+    }
+
+    .sponsor img {
+        width: 15vw;
+        margin: 4vh 2vw;
+    }
+
+    /* Landing page*/    
+    .hero-image {
+        height: 40vh;
+    }
+
+    .hero-text {
+        padding: 3vh 8vw;
+    }
+
+    .grid-landing {
+        display: block;
+    }
+
+    iframe {
+        width: 100%;
+        height: 40vh;
+    }
 }
