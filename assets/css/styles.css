@@ -417,13 +417,14 @@ iframe {
     font-weight: bold;
   }
   
-  .btn_close:hover,
-  .btn_close:focus {
+.btn_close:hover,
+.btn_close:focus {
     color: #000;
     text-decoration: none;
     cursor: pointer;
-  }
-/*---------------------------------------*/
+}
+
+
 /* Program */
 .days {
     display: flex;
@@ -591,6 +592,13 @@ a:hover p{
         font-size: 50px;
     }
 
+
+/* Overskrifter */
+
+    .heading-outer {
+        width: 80vw;
+    }
+
     /* Navigation*/
     .topnav a.icon {
         margin: 0;
@@ -633,5 +641,38 @@ a:hover p{
     iframe {
         width: 100%;
         height: 40vh;
+    }
+
+    /* Scener*/
+    .grid-scener {
+        display: block;
+    }
+
+    .img-scener {
+        height: auto;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #footer-scene {
+        margin-top: 0; 
+    }
+
+    /* Information */
+    .grid-info {
+        display: block;
+    }
+
+    #footer-info {
+        margin-top: 0;
+    }
+
+    /* For bands */
+    .grid-bands {
+        display: block;
+    }
+
+    #footer-bands {
+        margin-top: 0;
     }
 }
