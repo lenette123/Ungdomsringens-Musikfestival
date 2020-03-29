@@ -672,6 +672,25 @@ a:hover p{
         display: block;
     }
 
+    .garderobe {
+        background-color: #F27830;
+    }
+
+    .kontakt1 {
+        background-color: #F2A35E;
+    }
+
+    .kontakt2 {
+        background-color: #F27830;
+        color: #000;
+    }
+
+
+
+
+
+
+
     #footer-bands {
         margin-top: 0;
     }
