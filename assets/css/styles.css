@@ -592,6 +592,10 @@ a:hover p{
         font-size: 50px;
     }
 
+    h3 {
+        line-height: 1.2;
+    }
+
 
 /* Overskrifter */
 
@@ -684,12 +688,6 @@ a:hover p{
         background-color: #F27830;
         color: #000;
     }
-
-
-
-
-
-
 
     #footer-bands {
         margin-top: 0;
